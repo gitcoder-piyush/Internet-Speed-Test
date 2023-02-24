@@ -1,2 +1,2 @@
 # Internet-Speed-Test
-Get uploading and downloading speed using python
+Get uploading and downloading speed on a click.
