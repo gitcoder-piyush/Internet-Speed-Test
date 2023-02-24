@@ -9,7 +9,7 @@ Check your internet's uploading and downloading speed.
 
 # Working Principle:
 
-Tkinter is used to create the graphical user interface. The speedtest-cli is a ommand line interface for testing internet bandwidth using speedtest.net. This project has 5 labels that contains information to be displayed graphically and one function i.e. speedcheck (). get_servers() method in Speedtest class returns uploading and downloading speed from the servers with is displayed using config() function. upload and download function return speed in bytes per second which is then converted to Mbps by dividing with (10^6).The resulant number is then rounded up to 3 decimal digits using round function.
+Tkinter is used to create the graphical user interface. The speedtest-cli is a command line interface for testing internet bandwidth using speedtest.net. This project has 5 labels that contains information to be displayed graphically and one function i.e. speedcheck (). get_servers() method in Speedtest class returns uploading and downloading speed from the servers which is displayed using config() function. The upload() and download() functions return respective speeds in bytes per second which is then converted to Mbps by dividing it with (10^6).The resulant number is then rounded up to 3 decimal digits using round() function.
 
 # Video
 
